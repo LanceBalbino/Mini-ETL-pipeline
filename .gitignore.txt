@@ -1,0 +1,21 @@
+# Ignore environment and secret config
+.env
+config.py
+
+# Ignore compiled Python files
+__pycache__/
+*.py[cod]
+
+# Ignore data output
+data/
+*.csv
+*.json
+*.db
+*.SQLite
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
